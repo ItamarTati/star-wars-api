@@ -27,7 +27,6 @@ class App extends Component {
     const {people} = this.state
     return(
       <div>
-        <h1>Hello</h1>
         <List people = {people} />
       </div>
     )
