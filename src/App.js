@@ -15,7 +15,6 @@ class App extends Component {
   getPeople(){
     return Axios.get("https://swapi.co/api/people")
     .then((response) => {
-      console.log(response.data.results)
       this.setState( {people: response.data.results} )
     })
   }
